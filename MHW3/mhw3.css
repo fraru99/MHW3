@@ -1,0 +1,206 @@
+header {
+	display: flex;
+	background-image: url(../MHW1/gallery-1513681330-treni-lusso-royal-scotsman.jpg);
+	background-size: cover;
+	background-position: center;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	height: 70%;
+}
+
+body {
+	margin: 0;
+}
+
+.overlay {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+	text-align: center;
+	color: white;
+	top: 15%;
+	position: relative;
+}
+
+header em {
+	font-size: 1.7em;
+	font-weight: normal;
+}
+
+header p {
+	font-size: 0.7em;
+}
+
+header nav {
+	position: absolute;
+	display: flex;
+	background-color: burlywood;
+	padding: 15px;
+	align-items: center;
+	justify-content: space-between;
+	top: 0;
+	left: 0;
+	right: 0;
+	font-size: 20px;
+}
+
+#links {
+	margin-left: 55%;
+}
+
+header #logo {
+	font-size: 1.7em;
+}
+
+form {
+	margin-top: 120px;
+	z-index: 5;
+}
+
+.hidden {
+	display: none !important;
+}
+
+#ricerca1 {
+	display: block;
+	align-items: center;
+	text-align: center;
+	margin: 10px;
+	margin-top: 30px;
+	margin-right: 40%;
+	margin-left: 40%;
+	background-color: rgba(255, 255, 255, 0.781);
+	position: relative;
+	top: 30%;
+}
+
+#ricerca1 p {
+	font-size: 1.2em;
+}
+
+.border {
+	border: 2px solid black;
+}
+
+#ricerca2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+	background-position: center;
+	margin: 100px;
+	margin-top: 0;
+}
+
+#linea {
+	border: 2px solid rgb(184, 178, 178);
+	position: relative;
+	top: 140px;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+#ricerca3 {
+	position: relative;
+	margin-right: 20%;
+	margin-left: 20%;
+	bottom: 25%;
+	background-color: rgba(255, 255, 255, 0.781);
+}
+
+#ricerca3 p {
+	font-size: 1.2em;
+	border: 2px solid black;
+}
+
+.ban {
+	width: 100%;
+	height: 1000px;
+}
+
+footer {
+	position: absolute;
+	display: flex;
+	background-color: burlywood;
+	text-align: center;
+	background-size: cover;
+	left: 0;
+	right: 0;
+	font-size: 20px;
+	align-items: center;
+}
+
+footer address {
+	font-size: 2em;
+	margin-left: 5%;
+}
+
+footer p {
+	font-size: 1.7em;
+	margin-left: 50%;
+}
+
+@media (max-width: 500px) {
+	#links {
+		display: none;
+	}
+
+	#menu div {
+		width: 25px;
+		height: 3px;
+		background-color: rgb(0, 0, 0);
+		margin: 5px 0;
+		margin-right: 20px;
+	}
+
+	header h1 {
+		font-size: 1.3em;
+	}
+
+	header p {
+		font-size: 0.8em;
+	}
+
+	#ricerca1 {
+		margin-top: 0;
+		margin-right: 20%;
+		margin-left: 20%;
+		margin-bottom: 70px;
+	}
+
+	#ricerca2 {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	#ricerca3 {
+		margin-right: 5px;
+		margin-left: 5px;
+		bottom: 35%;
+	}
+
+	body {
+		margin-right: -40%;
+	}
+
+	footer {
+		margin-right: -40%;
+	}
+
+	footer p {
+		font-size: 1.5em;
+		margin-left: 10%;
+	}
+
+	footer address {
+		font-size: 1.5em;
+	}
+}
